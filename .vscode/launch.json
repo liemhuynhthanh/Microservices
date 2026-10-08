@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LimitsServiceApplication<limits-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservices.limits_service.LimitsServiceApplication",
+            "projectName": "limits-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringCloudConfigServerApplication<spring-cloud-config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.microservices.spring_cloud_config_server.SpringCloudConfigServerApplication",
+            "projectName": "spring-cloud-config-server",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
